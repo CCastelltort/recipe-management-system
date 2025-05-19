@@ -12,12 +12,9 @@ It includes:
 
 ## 📁 Project Structure
 
-recipe-management-system/
-├── database/
-│ ├── schema.sql # SQL commands to create all tables
-│ └── populate_data.sql # SQL commands to populate tables with initial data
-├── frontend/
-│ └── front-end.py # CLI tool for interacting with the database
+- `schema.sql`: Contains all SQL commands to create the database.
+- `populate_data.sql`: SQL commands to populate tables with initial data.
+- `front-end.py`: Python script with an interactive CLI for querying and modifying the database.
 
 ---
 
