@@ -2,17 +2,11 @@
 
 This project is a **MySQL + Python** database system for a **Recipe Management System**. The system is designed to help users manage recipes, ingredients, dietary restrictions, and meal types, while supporting user-specific features like favorite recipes with ratings and comments. 
 
-It includes:
-- A MySQL schema with 9 tables.
-- Preloaded data for users, recipes, ingredients, and more.
-- A Python frontend (`front-end.py`) that interacts with the database via queries.
-
-
 ---
 
 ## 📁 Project Structure
 
-- `schema.sql`: Contains all SQL commands to create the database.
+- `schema.sql`: SQL commands to create the database with 9 tables.
 - `populate_data.sql`: SQL commands to populate tables with initial data.
 - `front-end.py`: Python script with an interactive CLI for querying and modifying the database.
 
