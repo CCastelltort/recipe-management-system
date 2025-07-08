@@ -2,10 +2,10 @@ import mysql.connector
 
 def get_db_connection():
     return mysql.connector.connect(
-        host = "localhost",
-        user = "root",
-        password = "", #password
-        database = "final_project"
+        host = "",
+        user = "",
+        password = "",
+        database = "" 
         )
 
 #LEVEL 1: Query 1
